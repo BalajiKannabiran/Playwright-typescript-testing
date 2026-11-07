@@ -6,6 +6,7 @@ const credentials = {
   password: 'password',
 };
 
+
 test.describe('EA Employee application', () => {
   test('should log in with valid administrator credentials', async ({ page }) => {
     const employeePage = new EAEmployeePage(page);
